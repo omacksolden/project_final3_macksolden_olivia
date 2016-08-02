@@ -72,7 +72,6 @@ header {
 #container2 {
     background-color: #ffffff;
     margin-top: 275px;
-    width: 100%;
     padding: 20px;
 }
 
@@ -117,6 +116,13 @@ header {
 #contact {
     float: right;
     font-family: "Michroma";
+    padding-top: 25px;
+    margin-bottom: 50px;
+    padding-right: 45px;
+}
+
+#contact p {
+    margin-bottom: -12px;
 }
 
 #social li {
