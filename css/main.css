@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Futura';
-    src: url('fonts/Futura (Light).ttf');
+    src: url('../fonts/Futura (Light).ttf');
 }
-
 
 .page:nth-child(1) {
     background-image: url("../img/nightsky.jpg");
@@ -89,7 +88,7 @@ header {
 #boxes {
     width: 100%;
     overflow: hidden;
-    margin-left: -30px;
+    margin-left: -35px;
 }
 
 #boxes ul {
@@ -106,6 +105,14 @@ header {
     float: left;
     display: block;
     right: 50%;
+}
+
+#boxes li {
+    padding: 10px;
+}
+
+#boxes h4 {
+    font-family: "Michroma";
 }
 
 #container3 {
@@ -126,5 +133,13 @@ header {
 }
 
 #social li {
-    list-syle-type: none;
+    float: right;
+    padding-right: 24px;
+}
+
+#social ul {
+    padding-top: 25px;
+    padding-left: 200px;
+    list-style: none;
+    display: inline-block;;
 }

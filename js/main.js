@@ -1,3 +1,3 @@
-$(function($) {
-  $(".page").fixedBG();
+$(function ($) {
+    $('.page').fixedBG();
 });
