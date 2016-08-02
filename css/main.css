@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura (Light).ttf');
+}
+
+
+.page:nth-child(1) {
+    background-image: url("../img/nightsky.jpg");
+    background-repeat: repeat-y;
+}
+
+header {
+    width: 100%;
+}
+
+#container {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#container p {
+    text-align: center;
+}
+
+#container h3 {
+    text-align: center;
+}
+
+#redbar {
+    background-color: #d71a21;
+    height: 25px;
+}
+
+#redbar p {
+    color: white;
+    padding: 10px;
+}
+
+#container img {
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#farright {
+    float: right;
+    padding-right: 35px;
+}
+
+#farright p {
+    font-family: "Michroma";
+    margin-bottom: -12px;
+    color: #d71a21;
+
+}
+
+#menubutton {
+    float: right;
+    padding-right: 75px;
+}
+
+#hours {
+    font-size: 11px;
+    padding-top: 10px;
+    color: #414141;
+}
+
+#hours p {
+    color: #414141;
+}
