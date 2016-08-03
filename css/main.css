@@ -129,7 +129,11 @@ header {
 
 #contact p {
     margin-bottom: -12px;
+}
+
+#phone {
     color: #109209;
+    padding-bottom: 15px;
 }
 
 #social li {
@@ -200,27 +204,33 @@ header {
         display: block;
         padding-left: 0;
         margin: auto;
-        margin-left: -60px;
+        margin-left: -45px;
+        width: 400px;
     }
     .redbar {
-        padding-top: 17px;
+        margin-top: 45px;
     }
     #container1 {
         height: 500px;
     }
-
     #farright {
         margin-top: -25px;
         padding-bottom: 25px;
         float: none;
     }
     #menubutton {
+        margin-top: 25px;
         float: none;
         margin-left: 85px;
     }
     #social {
         margin: auto;
         float: none;
+        padding: 0px;
+    }
+
+    #social ul _{
+        padding: 0px;
     }
 
 }
