@@ -123,13 +123,14 @@ header {
 #contact {
     float: right;
     font-family: "Michroma";
-    padding-top: 25px;
+    padding-top: 15px;
     margin-bottom: 50px;
-    padding-right: 45px;
+    padding-right: 65px;
 }
 
 #contact p {
     margin-bottom: -12px;
+    color: #109209;
 }
 
 #social li {
@@ -139,7 +140,52 @@ header {
 
 #social ul {
     padding-top: 25px;
-    padding-left: 200px;
+    padding-left: 150px;
     list-style: none;
     display: inline-block;;
+}
+
+#menucontainer {
+    background-color: #ffffff;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+    padding-bottom: 500px;
+
+}
+
+#menucontainer h1 {
+    font-family: "Michroma";
+    color: #109209;
+    text-align: center;
+}
+
+#menucontainer h3 {
+    font-family: "Michroma";
+    color: #d71a21;
+    text-align: center;
+}
+
+#menucontainer p {
+    font-family: "Futura";
+    color: #414141;
+    text-align: center;
+}
+
+#menucontainer h4 {
+    font-family: "Michroma";
+    font-weight: 700;
+    color: #414141;
+    text-align: center;
+}
+
+.appsleft {
+    width: 45%;
+    float: left;
+}
+
+.appsright {
+    width: 45%;
+    float: right;
 }
