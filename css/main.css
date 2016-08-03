@@ -30,7 +30,6 @@ header {
     height: 25px;
 }
 
-
 #container1 img {
     padding-left: 25px;
     padding-top: 12px;
@@ -188,4 +187,40 @@ header {
 .appsright {
     width: 45%;
     float: right;
+}
+.logo2 {
+    display: none;
+}
+
+@media all and (min-width: 400px) {
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+        padding-left: 0;
+        margin: auto;
+        margin-left: -60px;
+    }
+    .redbar {
+        padding-top: 17px;
+    }
+    #container1 {
+        height: 500px;
+    }
+
+    #farright {
+        margin-top: -25px;
+        padding-bottom: 25px;
+        float: none;
+    }
+    #menubutton {
+        float: none;
+        margin-left: 85px;
+    }
+    #social {
+        margin: auto;
+        float: none;
+    }
+
 }
