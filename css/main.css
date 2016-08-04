@@ -266,7 +266,6 @@ header {
 
 
 
-/*
 @media all and (min-width: 400px) {
     .logo {
         display: none;
@@ -294,13 +293,11 @@ header {
         float: none;
         margin-left: 85px;
     }
-    #social {
-        margin: auto;
-        float: none;
+    #contact {
+        padding-top: 30px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
     }
 
-    #social ul _{
-        padding: 0;
-    }
-
-}*/
+}
