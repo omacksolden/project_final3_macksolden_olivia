@@ -188,6 +188,9 @@ header {
     font-family: "Michroma";
     color: #d71a21;
     text-align: center;
+    clear: both;
+    padding-top: 45px;
+    font-size: 25px;
 }
 
 #menucontainer p {
@@ -201,6 +204,11 @@ header {
     font-weight: 700;
     color: #414141;
     text-align: center;
+    padding-top: 25px;
+}
+
+#menucontainer img {
+    width: 100%
 }
 
 .appsleft {
@@ -212,6 +220,28 @@ header {
     width: 45%;
     float: right;
 }
+
+.entreesleft {
+    width: 45%;
+    float: left;
+}
+
+.entreesright {
+    width: 45%;
+    float: right;
+}
+
+.bevsleft {
+    width: 45%;
+    float: left;
+}
+
+.bevsright {
+    width: 45%;
+    float: right;
+}
+
+
 .logo2 {
     display: none;
 }
