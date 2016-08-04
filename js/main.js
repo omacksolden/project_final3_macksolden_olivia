@@ -8,3 +8,8 @@ $(function ($) {
 // newDOMElement.innerHTML = 'Come and See Us!';
 //
 // selectedElement.appendChild( newDOMElement );
+
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});

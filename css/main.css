@@ -199,6 +199,12 @@ header {
 #copyright {
     text-align: center;
 }
+
+.owl-carousel {
+    margin-top: 275px;
+}
+
+
 /*
 @media all and (min-width: 400px) {
     .logo {
