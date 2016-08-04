@@ -5,7 +5,7 @@ $(function ($) {
 // var selectedElement = document.getElementById( 'menucontainer' );
 // var newDOMElement = document.createElement( 'h1' );
 //
-// newDOMElement.innerHTML = 'Come and See Us!';
+// newDOMElement.innerHTML = 'Come See Us!';
 //
 // selectedElement.appendChild( newDOMElement );
 

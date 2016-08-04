@@ -162,9 +162,10 @@ header {
 
 #social ul {
     padding-top: 25px;
-    padding-left: 150px;
+    padding-left: 90px;
     list-style: none;
-    display: inline-block;;
+    display: inline-block;
+    padding-bottom: 35px;
 }
 
 #menucontainer {
