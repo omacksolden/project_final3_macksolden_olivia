@@ -47,7 +47,6 @@ header {
     color: #d71a21;
 
 }
-
 #menubutton {
     float: right;
     padding-right: 75px;
@@ -200,9 +199,33 @@ header {
     text-align: center;
 }
 
-.owl-carousel {
-    margin-top: 275px;
+
+#image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+   }
+#image-container img.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+#image-container img.hoverpic {
+    position: absolute;
+    top: 200px;
+    left: 0;
 }
+
+#carousel h3 {
+    margin-top: 270px;
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-family: "Michroma";
+    color: #109209;
+}
+
 
 
 /*
