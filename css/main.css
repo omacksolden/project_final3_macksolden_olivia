@@ -211,36 +211,15 @@ header {
     width: 100%
 }
 
-.appsleft {
+.left {
     width: 45%;
     float: left;
 }
 
-.appsright {
+.right {
     width: 45%;
     float: right;
 }
-
-.entreesleft {
-    width: 45%;
-    float: left;
-}
-
-.entreesright {
-    width: 45%;
-    float: right;
-}
-
-.bevsleft {
-    width: 45%;
-    float: left;
-}
-
-.bevsright {
-    width: 45%;
-    float: right;
-}
-
 
 .logo2 {
     display: none;
