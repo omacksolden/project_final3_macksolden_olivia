@@ -10,18 +10,17 @@ $(function ($) {
 // selectedElement.appendChild( newDOMElement );
 
 
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel();
 });
 
 
-
-$(document).ready(function() {
+$(document).ready(function () {
     $('.pic').hover(
     function () {
-        $('.hoverpic').animate({ "top": "-=200px" }, "slow" );
+        $('.hoverpic').animate({'top': '-=200px' }, 'slow');
     },
     function () {
-        $('.hoverpic').animate({ "top": "+=200px" }, "slow" );
+        $('.hoverpic').animate({'top': '+=200px' }, 'slow');
     });
 });

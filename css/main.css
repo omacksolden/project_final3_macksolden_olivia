@@ -45,8 +45,8 @@ header {
     font-family: "Michroma";
     margin-bottom: -12px;
     color: #d71a21;
-
 }
+
 #menubutton {
     float: right;
     padding-right: 75px;
@@ -151,8 +151,13 @@ header {
 #phone a {
     color: #ffffff;
 }
+
 #phone a:hover {
     color: #109209;
+}
+
+#social a:hover {
+    opacity: 0.7;
 }
 
 #social li {
@@ -182,6 +187,7 @@ header {
     font-family: "Michroma";
     color: #109209;
     text-align: center;
+    font-size: 35px;
 }
 
 #menucontainer h3 {
@@ -208,7 +214,7 @@ header {
 }
 
 #menucontainer img {
-    width: 100%
+    width: 100%;
 }
 
 .left {
@@ -235,12 +241,14 @@ header {
     width: 300px;
     height: 200px;
     overflow: hidden;
-   }
+}
+
 #image-container img.pic {
     position: absolute;
     top: 0;
     left: 0;
-    }
+}
+
 #image-container img.hoverpic {
     position: absolute;
     top: 200px;
