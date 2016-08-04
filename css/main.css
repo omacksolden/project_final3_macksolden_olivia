@@ -121,7 +121,7 @@ header {
 #contact {
     float: right;
     font-family: "Michroma";
-    padding-top: 15px;
+    padding-top: 0px;
     margin-bottom: 50px;
     padding-right: 65px;
 }
@@ -131,8 +131,28 @@ header {
 }
 
 #phone {
-    color: #109209;
+    color: #ffffff;
     padding-bottom: 15px;
+}
+
+#email {
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#email a {
+    color: #ffffff;
+}
+
+#email a:hover {
+    color: #109209;
+}
+
+#phone a {
+    color: #ffffff;
+}
+#phone a:hover {
+    color: #109209;
 }
 
 #social li {
