@@ -20,5 +20,7 @@ $(document).ready(function () {
 //This custom jQuery code causes an image to slide over another on hover
 
 var element = document.getElementById('menu');
-element.innerHTML = 'MENU';
-// This custom javascript code will change the h1 on the menu page to MENU
+if (document.getElementById('menu')) {
+    element.innerHTML = 'MENU';
+}
+// // This custom javascript code will change the h1 on the menu page to MENU
