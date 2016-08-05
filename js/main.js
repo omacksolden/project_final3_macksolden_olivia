@@ -2,9 +2,6 @@ $(function ($) {
     $('.page').fixedBG();
 });
 
-var element = document.getElementById('menu');
-element.innerHTML = 'MENU';
-
 
 $(document).ready(function () {
     $('.pic').hover(
@@ -15,3 +12,6 @@ $(document).ready(function () {
         $('.hoverpic').animate({'top': '+=200px' }, 'slow');
     });
 });
+
+var element = document.getElementById('menu');
+element.innerHTML = 'MENU';

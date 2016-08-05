@@ -1,13 +1,3 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 @font-face {
     font-family: 'Futura';
     src: url('../fonts/Futura (Light).ttf');
@@ -246,7 +236,6 @@ header {
 #copyright {
     text-align: center;
 }
-
 
 #image-container {
     position: relative;
@@ -511,7 +500,8 @@ header {
         padding-top: 75px;
     }
     #image-container img {
-        width: 85%;
+        width: 100%;
+        padding: 0;
     }
     #social ul {
         padding-left: 75px;;
