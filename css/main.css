@@ -250,20 +250,20 @@ header {
     text-align: center;
 }
 
-#image-container {
+.image-container {
     position: relative;
     width: 300px;
     height: 200px;
     overflow: hidden;
 }
 
-#image-container img.pic {
+.image-container img.pic {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#image-container img.hoverpic {
+.image-container img.hoverpic {
     position: absolute;
     top: 200px;
     left: 0;
@@ -314,7 +314,7 @@ header {
     #social ul {
         padding-left: 25px;;
     }
-    #image-container img {
+    .image-container img {
         width: 85%;
     }
 
@@ -353,7 +353,7 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
-    #image-container img {
+    .image-container img {
         width: 95%;
     }
     #social ul {
@@ -394,7 +394,7 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
-    #image-container img {
+    .image-container img {
         padding-left: 35px;
         width: 85%;
     }
@@ -436,7 +436,7 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
-    #image-container img {
+    .image-container img {
         width: 85%;
     }
     #social ul {
@@ -474,7 +474,7 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
-    #image-container img {
+    .image-container img {
         width: 85%;
     }
     #social ul {
@@ -512,7 +512,7 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
-    #image-container img {
+    .image-container img {
         width: 100%;
         padding: 0;
     }
