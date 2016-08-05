@@ -2,7 +2,8 @@ $(function ($) {
     $('.page').fixedBG();
 });
 
-document.getElementById("menu").innerHTML = 'MENU';
+var element = document.getElementById('menu');
+element.innerHTML = 'MENU';
 
 
 $(document).ready(function () {
