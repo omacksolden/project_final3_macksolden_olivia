@@ -315,11 +315,11 @@ header {
         display: block;
         padding-left: 0;
         margin: auto;
-        margin-left: -15px;
+        margin-left: 0px;
         width: 300px;
     }
     .redbar {
-        margin-top: 45px;
+        margin-top: 15px;
     }
     #container1 {
         height: 500px;
@@ -332,7 +332,7 @@ header {
     #menubutton {
         margin-top: 25px;
         float: none;
-        margin-left: 75px;
+        margin-left: 85px;
     }
     #contact {
         padding-top: 30px;
@@ -340,8 +340,11 @@ header {
     #menucontainer img {
         padding-top: 75px;
     }
+    #image-container img {
+        width: 95%;
+    }
     #social ul {
-        padding-left: 15px;;
+        padding-left: 75px;;
     }
 
 }
