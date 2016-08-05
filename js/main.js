@@ -2,12 +2,7 @@ $(function ($) {
     $('.page').fixedBG();
 });
 
-// document.getElementById("menu").innerHTML = "New text!";
-
-
-$(document).ready(function () {
-    $('.owl-carousel').owlCarousel();
-});
+document.getElementById("menu").innerHTML = 'MENU';
 
 
 $(document).ready(function () {
