@@ -348,3 +348,158 @@ header {
     }
 
 }
+
+@media all and (min-width: 475px) {
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+        margin: auto;
+        margin-left: 45px;
+        width: 300px;
+    }
+    .redbar {
+        margin-top: 15px;
+    }
+    #container1 {
+        height: 500px;
+    }
+    #farright {
+        margin-top: -25px;
+        padding-bottom: 25px;
+        float: none;
+    }
+    #menubutton {
+        margin-top: 25px;
+        float: none;
+        margin-left: 125px;
+    }
+    #contact {
+        padding-top: 30px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
+    }
+    #image-container img {
+        padding-left: 35px;
+        width: 85%;
+    }
+    #social ul {
+        padding-left: 75px;;
+    }
+}
+
+@media all and (min-width: 645px) {
+    .logo {
+        display: block;
+        margin: auto;
+    }
+    .logo2 {
+        display: none;
+        margin: auto;
+        margin-left: 45px;
+        width: 300px;
+    }
+    .redbar {
+        margin-top: 15px;
+    }
+    #container1 {
+        height: 400px;
+    }
+    #farright {
+        margin-top: -15px;
+        padding-bottom: 25px;
+        float: none;
+    }
+    #menubutton {
+        margin-top: 25px;
+        float: none;
+        margin-left: 225px;
+    }
+    #contact {
+        padding-top: 15px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
+    }
+    #image-container img {
+        width: 85%;
+    }
+    #social ul {
+        padding-left: 75px;;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .logo {
+        float: left;
+        padding-left: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .redbar {
+        clear: both;
+    }
+    #container1 {
+        height: 245px;
+    }
+    #farright {
+        margin-top: 0px;
+        padding-bottom: 25px;
+        float: right;
+    }
+    #menubutton {
+        margin-top: 0px;
+        float: right;
+        margin-left: 0px;
+    }
+    #contact {
+        padding-top: 15px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
+    }
+    #image-container img {
+        width: 85%;
+    }
+    #social ul {
+        padding-left: 75px;;
+    }
+}
+@media all and (min-width: 1031px) {
+    .logo {
+        float: left;
+        padding-left: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .redbar {
+        clear: both;
+    }
+    #container1 {
+        height: 100%;
+    }
+    #farright {
+        margin-top: 0px;
+        padding-bottom: 25px;
+        float: right;
+    }
+    #menubutton {
+        margin-top: 0px;
+        float: right;
+        margin-left: 0px;
+    }
+    #contact {
+        padding-top: 15px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
+    }
+    #image-container img {
+        width: 85%;
+    }
+    #social ul {
+        padding-left: 75px;;
+    }
+}
