@@ -2,12 +2,7 @@ $(function ($) {
     $('.page').fixedBG();
 });
 
-// var selectedElement = document.getElementById( 'menucontainer' );
-// var newDOMElement = document.createElement( 'h1' );
-//
-// newDOMElement.innerHTML = 'Come See Us!';
-//
-// selectedElement.appendChild( newDOMElement );
+// document.getElementById("menu").innerHTML = "New text!";
 
 
 $(document).ready(function () {

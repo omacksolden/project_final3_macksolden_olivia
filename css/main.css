@@ -188,6 +188,7 @@ header {
     color: #109209;
     text-align: center;
     font-size: 35px;
+    margin-top: 25px;
 }
 
 #menucontainer h3 {
@@ -433,7 +434,7 @@ header {
 
 @media all and (min-width: 768px) {
     .logo {
-        float: left;
+        margin: auto;
         padding-left: 15px;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -448,11 +449,12 @@ header {
         margin-top: 0px;
         padding-bottom: 25px;
         float: right;
+        margin-right: 150px;
     }
     #menubutton {
         margin-top: 0px;
-        float: right;
-        margin-left: 0px;
+        float: left;
+        margin-left: 150px;
     }
     #contact {
         padding-top: 15px;
@@ -467,6 +469,7 @@ header {
         padding-left: 75px;;
     }
 }
+
 @media all and (min-width: 1031px) {
     .logo {
         float: left;
@@ -484,6 +487,7 @@ header {
         margin-top: 0px;
         padding-bottom: 25px;
         float: right;
+        margin-right: 0px;
     }
     #menubutton {
         margin-top: 0px;
