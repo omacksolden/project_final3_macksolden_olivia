@@ -229,6 +229,7 @@ header {
 
 .logo2 {
     display: none;
+    width: 300px;
 }
 
 #copyright {
@@ -264,7 +265,47 @@ header {
     color: #109209;
 }
 
+@media all and (min-width: 320px) {
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+        padding-left: 0;
+        margin: auto;
+        margin-left: -15px;
+        width: 300px;
+    }
+    .redbar {
+        margin-top: 15px;
+    }
+    #container1 {
+        height: 500px;
+    }
+    #farright {
+        margin-top: -25px;
+        padding-bottom: 25px;
+        float: none;
+    }
+    #menubutton {
+        margin-top: 25px;
+        float: none;
+        margin-left: 45px;
+    }
+    #contact {
+        padding-top: 30px;
+    }
+    #menucontainer img {
+        padding-top: 75px;
+    }
+    #social ul {
+        padding-left: 25px;;
+    }
+    #image-container img {
+        width: 85%;
+    }
 
+}
 
 @media all and (min-width: 400px) {
     .logo {
@@ -274,8 +315,8 @@ header {
         display: block;
         padding-left: 0;
         margin: auto;
-        margin-left: -45px;
-        width: 400px;
+        margin-left: -15px;
+        width: 300px;
     }
     .redbar {
         margin-top: 45px;
@@ -291,13 +332,16 @@ header {
     #menubutton {
         margin-top: 25px;
         float: none;
-        margin-left: 85px;
+        margin-left: 75px;
     }
     #contact {
         padding-top: 30px;
     }
     #menucontainer img {
         padding-top: 75px;
+    }
+    #social ul {
+        padding-left: 15px;;
     }
 
 }
