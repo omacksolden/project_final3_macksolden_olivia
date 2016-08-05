@@ -1,7 +1,7 @@
 # Links
 
 - [Github Repo](https://github.com/omacksolden/project_final3_macksolden_olivia)
-- [Project Link](https://livmacksolden.com/project_final3_macksolden_olivia)
+- [Project Link](http://livmacksolden.com/project_final3_macksolden_olivia/)
 
 # Resources
 
